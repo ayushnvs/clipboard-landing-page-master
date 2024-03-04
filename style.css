@@ -208,4 +208,55 @@ footer .social-media {
 
 @media (width > 375px) {
     
+    body {
+        margin: 0px;
+    }
+
+    
+    .main section:not(.logo), footer {
+        width: 100%;
+    }
+
+    .logo {
+        background-image: url("./images/bg-header-desktop.png");
+        padding: 130px 0px 50px 0px;
+    }
+
+    h1 {
+        font-size: 2.55rem;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        padding: 10px 310px;
+        line-height: 1.5;
+        letter-spacing: 0.25px;
+    }
+
+    button {
+        width: 230px;
+    }
+
+    .main section {
+        /* border: 2px solid red; */
+        width: auto;
+        display: block;
+    }
+
+    .main .sec-2 {
+        padding: 0px !important;
+    }
+
+    .main .sec-2 {
+
+    }
+
+    .main .sec-5 img {
+        width: 50% !important;
+    }
 }
